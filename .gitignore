@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+
+# Generated experiment artifacts and model bundles should be shared via Drive.
+outputs/
+*.npz
+*.zip
+report.md
+report.pdf
+make_report_pdf.py
+
+# Local datasets should not be committed.
+EuroSAT_RGB/
